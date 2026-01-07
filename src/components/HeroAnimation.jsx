@@ -73,6 +73,10 @@ const HeroAnimation = ({ onComplete }) => {
             isVisible 
               ? 'opacity-100 translate-y-0' 
               : 'opacity-0 -translate-y-8'
+          } ${
+            currentPhrase === phrases.length - 1 && isVisible
+              ? 'animate-pulse-scale'
+              : ''
           }`}
           style={{
             textShadow: '0 0 40px rgba(212, 175, 55, 0.2)'

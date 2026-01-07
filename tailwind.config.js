@@ -20,6 +20,15 @@ export default {
         'numbers': ['Playfair Display', 'serif'],
         'cinzel': ['Cinzel', 'serif'],
       },
+      keyframes: {
+        'pulse-scale': {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+        },
+      },
+      animation: {
+        'pulse-scale': 'pulse-scale 1.5s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
