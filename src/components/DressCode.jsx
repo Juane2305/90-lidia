@@ -44,25 +44,13 @@ const DressCode = () => {
 
             {/* Dress Code Text */}
             <div className="mb-6">
-              <p className="font-sans text-xs uppercase tracking-[0.3em] text-white/50 mb-4">
-                Se sugiere
-              </p>
-              <h3 className="font-serif text-3xl md:text-4xl text-white mb-2">
-                Elegante Sport
+              <h3 className="font-serif text-3xl md:text-4xl text-white mb-6">
+                Como te sientas más cómodo
               </h3>
+              <p className="font-sans text-sm text-white/60 leading-relaxed">
+                Lo importante es que disfrutes de este día especial
+              </p>
             </div>
-
-            {/* Divider */}
-            <div className="flex items-center justify-center gap-3 my-6">
-              <span className="w-8 h-[1px] bg-gold/40"></span>
-              <span className="text-gold text-xs">◆</span>
-              <span className="w-8 h-[1px] bg-gold/40"></span>
-            </div>
-
-            {/* Hint */}
-            <p className="font-sans text-sm text-white/50 leading-relaxed">
-              Tu elegancia hará este día aún más especial
-            </p>
           </div>
         </div>
       </div>

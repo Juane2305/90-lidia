@@ -10,7 +10,8 @@ const HeroAnimation = ({ onComplete }) => {
     "Hay mucho que agradecer y celebrar...",
     "Una trayectoria llena de momentos inolvidables merece compartirse con las personas más especiales y con una gran celebración...",
     "¡Y nada me haría más feliz que compartir esta alegría contigo!",
-    "Tu presencia será el mejor regalo para hacer de este día un recuerdo imborrable... ¡Te espero!"
+    "Tu presencia será el mejor regalo para hacer de este día un recuerdo imborrable...",
+    "¡Te espero!"
   ];
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const HeroAnimation = ({ onComplete }) => {
       setIsVisible(true);
       
       // Calculate display time based on phrase length
-      const displayTime = Math.max(3000, phrases[currentPhrase].length * 70);
+      const displayTime = Math.max(3000, phrases[currentPhrase].length * 80);
       
       const hideTimer = setTimeout(() => {
         setIsVisible(false);

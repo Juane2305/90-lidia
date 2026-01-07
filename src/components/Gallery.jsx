@@ -5,7 +5,10 @@ const Gallery = () => {
     { id: 2, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767800516/IMG_5964_gn67d8.jpg', alt: 'Foto de Lidia 2' },
     { id: 3, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767800516/IMG_5962_vu4ree.jpg', alt: 'Foto de Lidia 3' },
     { id: 4, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767800516/IMG_5963_wmncze.jpg', alt: 'Foto de Lidia 4' },
-    { id: 5, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767800516/IMG_5966_kles4r.jpg', alt: 'Foto de Lidia 5' },
+    { id: 5, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767815537/IMG_5977_vftavr.jpg', alt: 'Foto de Lidia 5' },
+    { id: 6, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767815537/IMG_5978_tpju4b.jpg', alt: 'Foto de Lidia 6' },
+    { id: 7, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767815537/7b451a04-daa3-4040-a1cf-e425dcc43103_bxauwi.jpg', alt: 'Foto de Lidia 7' },
+    { id: 8, url: 'https://res.cloudinary.com/dheeykiqu/image/upload/v1767815537/562fc052-295d-4d43-95d1-a8f1f81af9a7_dsrwa0.jpg', alt: 'Foto de Lidia 8' },
   ];
 
   return (
