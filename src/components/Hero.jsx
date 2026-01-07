@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black-deep via-black-light to-black-deep">
+    <section className="relative min-h-screen flex items-center justify-center overflow-visible bg-gradient-to-b from-black-deep via-black-light to-black-deep">
       
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -44,14 +44,14 @@ const Hero = () => {
         </div>
         
         {/* Number 90 */}
-        <div className="relative mb-6 flex justify-center">
+        <div className="relative mb-6 flex justify-center overflow-visible">
           <div className="relative inline-block">
-            <span className="font-numbers text-8xl md:text-9xl lg:text-[12rem] font-bold text-transparent bg-clip-text bg-gradient-to-b from-gold via-gold-light to-gold drop-shadow-2xl block" style={{
-              textShadow: '0 0 60px rgba(212, 175, 55, 0.4)'
+            <span className="font-cinzel text-8xl md:text-9xl lg:text-[12rem] font-bold text-gold drop-shadow-2xl block" style={{
+              textShadow: '0 0 60px rgba(212, 175, 55, 0.6)',
+              lineHeight: '1.2'
             }}>
               90
             </span>
-            <div className="absolute -top-4 -left-4 -right-4 -bottom-4 border border-gold/20 rounded-lg"></div>
           </div>
         </div>
         

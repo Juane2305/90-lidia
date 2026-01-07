@@ -68,7 +68,7 @@ const HeroAnimation = ({ onComplete }) => {
         
         {/* Main phrase */}
         <p 
-          className={`font-serif text-2xl md:text-4xl lg:text-5xl text-white leading-relaxed font-light transition-all duration-700 ${
+          className={`font-serif text-3xl md:text-4xl lg:text-5xl text-white leading-relaxed font-light transition-all duration-700 ${
             isVisible 
               ? 'opacity-100 translate-y-0' 
               : 'opacity-0 -translate-y-8'

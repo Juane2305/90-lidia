@@ -18,6 +18,7 @@ export default {
         'serif': ['Cormorant Garamond', 'serif'],
         'sans': ['Montserrat', 'sans-serif'],
         'numbers': ['Playfair Display', 'serif'],
+        'cinzel': ['Cinzel', 'serif'],
       },
     },
   },
