@@ -33,7 +33,7 @@ const Gallery = () => {
           <h2 className="font-display text-4xl md:text-5xl text-gold mt-4 mb-6">
             Momentos Especiales
           </h2>
-          <p className="font-serif text-xl text-white/60 italic max-w-xl mx-auto">
+          <p className="font-serif text-2xl text-white/60 italic max-w-xl mx-auto">
             90 años de amor, risas y momentos inolvidables
           </p>
           <div className="flex items-center justify-center gap-4 mt-6">

@@ -93,7 +93,7 @@ const RSVP = () => {
           <h2 className="font-display text-4xl md:text-5xl text-gold mt-4 mb-6">
             Confirmar Asistencia
           </h2>
-          <p className="font-serif text-lg text-white/60 italic max-w-md mx-auto leading-relaxed">
+          <p className="font-serif text-2xl text-white/60 italic max-w-md mx-auto leading-relaxed">
             Tu presencia es muy importante para mí. Por favor, confirma tu asistencia para poder recibirte como mereces.
           </p>
           <div className="flex items-center justify-center gap-4 mt-6">

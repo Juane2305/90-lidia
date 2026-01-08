@@ -75,7 +75,7 @@ const Hero = () => {
         </h1>
         
         {/* Subtitle */}
-        <p className="font-serif text-xl md:text-2xl text-white/60 italic">
+        <p className="font-serif text-2xl text-white/60 italic">
           Una vida para celebrar
         </p>
         
@@ -88,7 +88,7 @@ const Hero = () => {
         
         {/* Scroll indicator */}
         <div className="flex flex-col items-center gap-2 animate-bounce-subtle w-full mt-20">
-          <span className="font-sans text-xs uppercase tracking-widest text-white/40">Desliza</span>
+          <span className="font-sans text-base uppercase tracking-widest text-white/40">Desliza</span>
           <svg className="w-6 h-6 text-gold/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>

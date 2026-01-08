@@ -47,7 +47,7 @@ const DressCode = () => {
               <h3 className="font-serif text-3xl md:text-4xl text-white mb-6">
                 Como te sientas más cómodo
               </h3>
-              <p className="font-sans text-sm text-white/60 leading-relaxed">
+              <p className="font-sans text-base text-white/60 leading-relaxed">
                 Lo importante es que disfrutes de este día especial
               </p>
             </div>

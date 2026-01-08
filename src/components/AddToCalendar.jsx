@@ -42,7 +42,7 @@ const AddToCalendar = () => {
         </div>
 
         {/* Text */}
-        <p className="font-serif text-xl md:text-2xl text-white/70 mb-8 max-w-lg mx-auto leading-relaxed">
+        <p className="font-serif text-2xl md:text-2xl text-white/70 mb-8 max-w-lg mx-auto leading-relaxed">
           No olvides esta fecha tan especial, agrégala a tu calendario
         </p>
 
