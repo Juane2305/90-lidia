@@ -52,9 +52,12 @@ const Countdown = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <span className="text-gold text-2xl">✦</span>
-          <h2 className="font-serif text-3xl md:text-4xl text-white mt-4 mb-4">
-            Faltan
+          <h2 className="font-serif text-3xl md:text-4xl text-white mt-4 mb-3">
+            Preparate
           </h2>
+          <p className="font-serif text-2xl text-white/70 mb-4">
+            En
+          </p>
           <div className="flex items-center justify-center gap-4">
             <span className="w-16 h-[1px] bg-gradient-to-r from-transparent to-gold"></span>
             <span className="text-gold text-sm">◆</span>
@@ -107,7 +110,7 @@ const Countdown = () => {
         {/* Bottom text */}
         <div className="text-center mt-16">
           <p className="font-serif text-2xl text-white/50 italic">
-            para este día tan especial
+            Será este día tan especial
           </p>
         </div>
       </div>
