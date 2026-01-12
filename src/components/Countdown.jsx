@@ -109,7 +109,7 @@ const Countdown = () => {
 
         {/* Bottom text */}
         <div className="text-center mt-16">
-          <p className="font-serif text-2xl text-white/50 italic">
+          <p className="font-serif text-2xl text-white/80 italic">
             Será este día tan especial
           </p>
         </div>

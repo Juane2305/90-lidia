@@ -75,7 +75,7 @@ const Hero = () => {
         </h1>
         
         {/* Subtitle */}
-        <p className="font-serif text-2xl text-white/60 italic">
+        <p className="font-serif text-2xl text-white/80 italic">
           Una vida para celebrar
         </p>
         

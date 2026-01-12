@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         
         {/* Main text */}
-        <p className="font-serif text-2xl md:text-2xl text-white/60 italic mb-6 leading-relaxed max-w-xl mx-auto">
+        <p className="font-serif text-2xl md:text-2xl text-white/80 italic mb-6 leading-relaxed max-w-xl mx-auto">
           "Celebrar la vida es agradecer cada momento vivido y compartido con quienes amamos"
         </p>
         
